@@ -1,0 +1,60 @@
+.email-subscription-form {
+  text-transform: uppercase;
+}
+
+.email-subscription-input-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(0, 80%, 86%);
+  border-radius: 5rem;
+}
+
+.email-input {
+  font-family: 'Josefin Sans';
+  border: none;
+  background-color: transparent;
+  padding-left: 2rem;
+  color: hsl(0, 80%, 86%);
+  font-weight: 400;
+  font-size: 0.9rem;
+  outline: none;
+}
+.email-input::placeholder {
+  color: var(--desaturated-red);
+}
+
+.email-input::spelling-error{
+    background-color: aqua;
+}
+
+.email-error-icon {
+  margin-right: 0.8rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.email-submit-button {
+  border: none;
+  height: 3rem;
+  width: 6rem;
+  border-radius: 2rem;
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.email-submit-button:hover {
+  box-shadow: 0px 4px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.email-submit-button:active {
+  background-image: linear-gradient(135deg, hsl(0, 20%, 86%), hsl(0, 24%, 74%));
+}
+
+.error-message{
+     color: var(--desaturated-red);
+     padding-left: 2rem;
+     font-weight: 600;
+     font-size: .7rem;
+}

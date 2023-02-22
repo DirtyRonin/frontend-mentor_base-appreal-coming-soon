@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { ComingSoon } from './components/coming-soon';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">       
-      </header>
+      <header></header>
       <nav></nav>
-      <main></main>
+      <main>
+        <ComingSoon />
+      </main>
       <footer></footer>
     </div>
   );

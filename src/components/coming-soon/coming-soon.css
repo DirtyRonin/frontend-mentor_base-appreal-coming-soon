@@ -1,0 +1,107 @@
+.coming-soon-container {
+  /* --content-left-padding: 12rem; */
+  --desaturated-red: hsl(0, 36%, 70%);
+  --soft-red: hsl(0, 93%, 68%);
+  --dark-grayish-red: hsl(0, 6%, 24%);
+  max-width: 1440px;
+  display: grid;
+  grid-template-columns: 1.5fr 7fr 610px;
+  grid-template-rows: minmax(auto, 10rem) auto;
+  grid-template-areas:
+    '. a b'
+    '. c b';
+
+  background-image: url(../../task/images/bg-pattern-desktop.svg);
+  grid-gap: 6rem 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (width < 1100px) {
+  .coming-soon-container {
+    padding: 2rem 0 5rem;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: .5rem;
+    background-image: unset;
+  }
+}
+
+.coming-soon-header {
+  display: flex;
+  align-items: center;
+  grid-area: a;
+}
+
+@media (width < 1100px) {
+  .coming-soon-header {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+  }
+}
+
+.coming-soon-image {
+  grid-area: b;
+}
+
+.coming-soon-content-box {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-area: c;
+}
+
+@media (width < 1100px) {
+  .coming-soon-content-box {
+    margin-top: 3rem;
+    display: flex;
+  }
+}
+
+.coming-soon-content {
+  gap: 1rem;
+}
+
+.coming-soon-content .headline h1 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+@media (width < 1100px) {
+  .coming-soon-content .headline h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    font-weight: 600;
+    margin: 0;
+  }
+}
+.coming-soon-content .headline :first-child {
+  color: var(--desaturated-red);
+  font-weight: 300;
+}
+
+.coming-soon-content .text {
+  color: var(--desaturated-red);
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+@media (width < 1100px) {
+  .coming-soon-content .text {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-size: 0.88rem;
+  }
+}
+
+@media (width < 1100px) {
+  .coming-soon-subscription {
+    margin: 2rem 2rem 0;
+  }
+}
