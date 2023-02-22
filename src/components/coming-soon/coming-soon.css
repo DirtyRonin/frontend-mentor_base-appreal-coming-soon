@@ -1,5 +1,4 @@
 .coming-soon-container {
-  /* --content-left-padding: 12rem; */
   --desaturated-red: hsl(0, 36%, 70%);
   --soft-red: hsl(0, 93%, 68%);
   --dark-grayish-red: hsl(0, 6%, 24%);
@@ -10,7 +9,6 @@
   grid-template-areas:
     '. a b'
     '. c b';
-
   background-image: url(../../task/images/bg-pattern-desktop.svg);
   grid-gap: 6rem 1rem;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -22,7 +20,7 @@
     width: 375px;
     display: flex;
     flex-direction: column;
-    grid-gap: .5rem;
+    grid-gap: 0.5rem;
     background-image: unset;
   }
 }
@@ -37,7 +35,6 @@
   .coming-soon-header {
     padding-left: 1rem;
     padding-bottom: 1rem;
-
   }
 }
 
