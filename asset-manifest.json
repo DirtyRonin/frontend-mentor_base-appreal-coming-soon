@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor_base-appreal-coming-soon/static/css/main.08ee2b88.css",
+    "main.js": "/frontend-mentor_base-appreal-coming-soon/static/js/main.0ce52d08.js",
+    "static/js/787.abe05ffc.chunk.js": "/frontend-mentor_base-appreal-coming-soon/static/js/787.abe05ffc.chunk.js",
+    "static/media/hero-desktop.jpg": "/frontend-mentor_base-appreal-coming-soon/static/media/hero-desktop.659bc9a7221d265fe28f.jpg",
+    "static/media/hero-mobile.jpg": "/frontend-mentor_base-appreal-coming-soon/static/media/hero-mobile.1afd055b71b78462d388.jpg",
+    "static/media/logo.svg": "/frontend-mentor_base-appreal-coming-soon/static/media/logo.bfe35add16fb8c010b0231ce711541c6.svg",
+    "index.html": "/frontend-mentor_base-appreal-coming-soon/index.html",
+    "static/media/bg-pattern-desktop.svg": "/frontend-mentor_base-appreal-coming-soon/static/media/bg-pattern-desktop.964ebd4dd8014fd040d7.svg",
+    "static/media/icon-error.svg": "/frontend-mentor_base-appreal-coming-soon/static/media/icon-error.77009af74a9c193a398a6476b25aa1f3.svg",
+    "static/media/icon-arrow.svg": "/frontend-mentor_base-appreal-coming-soon/static/media/icon-arrow.4b3d2d93cd838720beda936cd05c7382.svg",
+    "main.08ee2b88.css.map": "/frontend-mentor_base-appreal-coming-soon/static/css/main.08ee2b88.css.map",
+    "main.0ce52d08.js.map": "/frontend-mentor_base-appreal-coming-soon/static/js/main.0ce52d08.js.map",
+    "787.abe05ffc.chunk.js.map": "/frontend-mentor_base-appreal-coming-soon/static/js/787.abe05ffc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ee2b88.css",
+    "static/js/main.0ce52d08.js"
+  ]
+}
