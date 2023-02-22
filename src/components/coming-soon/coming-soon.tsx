@@ -1,4 +1,3 @@
-import { url } from 'inspector';
 import React from 'react';
 import iconLogo from '../../task/images/logo.svg';
 import imageDesktop from '../../task/images/hero-mobile.jpg';
